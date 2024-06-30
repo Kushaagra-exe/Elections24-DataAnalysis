@@ -11,9 +11,20 @@ The 2024 Lok Sabha Elections Data Analysis Project aims to collect, process, and
 - **MatplotLib**
 - **Seaborn**
 
+```bash
+pip install -r requirements.txt
+```
+
 ## Data Collection
 Data has been scrapped from the website - **ttps://results.eci.gov.in/**
 Data Scrapping code can be found in `Scrapping` Directory
+
+
+## Data Sets
+- **Parties participated.csv** : Contains a list of Parties which Participated and Secured atleast 1 seat in Lok Sabha elections.
+- **State wise data.csv** : Contains data about Candidates who won in which Constituencies, their Votes Secured and Margin of Votes by which they won, according to the States in which they won. 
+- **party_wise_results.csv** : Cotains data about winner candidates from each Party, their Constituencies, their Votes Secured and Margin of Votes by which they won.
+- **winner combined candidates.csv** : Contains data about winner candidates from each party combined and all their statistics.
 
 
 ## Key Insights
